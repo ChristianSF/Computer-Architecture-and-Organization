@@ -2,7 +2,7 @@
 	espaco: .byte ' '
 
 .text
-	#ler o número
+	#ler o nÃºmero
 	li $v0, 5
 	syscall
 	
