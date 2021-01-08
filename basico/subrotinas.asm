@@ -1,7 +1,7 @@
 .data 
-	msg: .asciiz "Forneça um número: "
-	par: .asciiz "O número é par. "
-	impar: .asciiz "o número é impar."
+	msg: .asciiz "ForneÃ§a um nÃºmero: "
+	par: .asciiz "O nÃºmero Ã© par. "
+	impar: .asciiz "o nÃºmero Ã© impar."
 
 .text
 	la $a0, msg
