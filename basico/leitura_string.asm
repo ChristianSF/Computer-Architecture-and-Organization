@@ -1,6 +1,6 @@
 .data 
-	pergunta: .asciiz "Qual È o seu nome? "
-	saudacao: .asciiz "Ol·, "
+	pergunta: .asciiz "Qual √© o seu nome? "
+	saudacao: .asciiz "Ol√°, "
 	nome: .space 15
 
 .text
@@ -18,7 +18,7 @@
 	la $a0, saudacao
 	syscall
 	
-	#Impress„o da string
+	#Impress√£o da string
 	li $v0, 4
 	la $a0, nome
 	syscall
