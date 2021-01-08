@@ -1,7 +1,7 @@
 .data 
-	msg: .asciiz "Forneça um número: "
-	par: .asciiz "O número eh par. "
-	impar: .asciiz "O número é impar. "
+	msg: .asciiz "ForneÃ§a um nÃºmero: "
+	par: .asciiz "O nÃºmero eh par. "
+	impar: .asciiz "O nÃºmero Ã© impar. "
 
 .text
 	li $v0, 4
@@ -14,7 +14,7 @@
 	li $t0, 2
 	div $v0, $t0
 	
-	mfhi $t1 #Possui o resto da divisão 
+	mfhi $t1 #Possui o resto da divisÃ£o 
 	
 	beq $t1, $zero, imprimePar
 	li $v0, 4
