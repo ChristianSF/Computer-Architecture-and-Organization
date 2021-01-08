@@ -1,5 +1,5 @@
 .data 
-	msg: .asciiz "Forneça um número decimal: "
+	msg: .asciiz "ForneÃ§a um nÃºmero decimal: "
 	zero: .double 0.0
 	
 .text
